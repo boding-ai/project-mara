@@ -1,0 +1,7 @@
+meta/landing/platform -> slash | .png -> https://i.postimg.cc/W4xJRDvz/slash.png
+meta/landing/platform -> about | .png -> https://i.postimg.cc/gkhdyMJ5/Capture.png
+meta/landing/platform -> blog | .png -> https://i.postimg.cc/wxs68nbW/background-1.png
+meta/landing/learn -> learn | .png -> https://i.postimg.cc/63p31Z3D/Capture.png
+meta/auth/login -> login | .png -> https://i.postimg.cc/sxPrvQ8T/background-2.png
+
+meta/learn/add/add-store => Already saved in different folder => https://i.postimg.cc/fWKT70QW/add-store-tutorial-card.jpg

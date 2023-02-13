@@ -1,0 +1,139 @@
+
+/* ------------------------- PRICING ---------------------------- */
+.landing-pricing .pricing_card {
+    background-color: var(--navbar-color);
+    width: 320px;
+    height: 650px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    color: var(--light-dark-font-color);
+    transition: ease 0.4s;
+}
+
+.landing-pricing .pricing_card:hover {
+    transform: translate(0, -10px);
+}
+
+.landing-pricing .pricing_card .header {
+    padding: 1em;
+    border-bottom: 1px solid var(--light-grey-color);
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-pricing .pricing_card .header .title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.6em;
+    font-weight: 800;
+    margin: 0.3em 0 0.6em 0;
+    color: var(--bodinga-color);
+}
+
+.landing-pricing .pricing_card .header .price {
+    font-size: 3em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.landing-pricing .pricing_card .header .currency {
+    font-size: 1.5em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.landing-pricing .pricing_card .header .ribbon {
+  margin: 0;
+  padding: 0;
+  background: var(--bodinga-color);
+  color:var(--navbar-color);
+  padding:0.6em 0;
+  position: absolute;
+  top:0;
+  right:0;
+  transform: translateX(38%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+  font-size: 16px;
+}
+
+.landing-pricing .pricing_card .header .ribbon:before,
+.landing-pricing .pricing_card .header .ribbon:after {
+  content: '';
+  position: absolute;
+  top:0;
+  margin: 0 -1px; /* tweak */
+  width: 100%;
+  height: 100%;
+  background: var(--bodinga-color);
+}
+.landing-pricing .pricing_card .header .ribbon:before {
+  right:100%;
+}
+
+.landing-pricing .pricing_card .header .ribbon:after {
+  left:100%;
+}
+
+.landing-pricing .pricing_card .duration {
+    font-size: 0.9em;
+    margin: 1.5em 0 0.5em 0.5em;
+    color: var(--grey-color);
+}
+
+.landing-pricing .pricing_card .body {
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    padding: 1em 1em 1.5em 1em;
+}
+
+.landing-pricing .pricing_card .body .feature {
+    margin: 0.8em 0;
+    font-size: 0.9em;
+}
+
+.landing-pricing .pricing_card .body .feature .state-yes, 
+.landing-pricing .pricing_card .body .feature .state-mid {
+    color: var(--lightest-dark-font-color);
+}
+
+.landing-pricing .pricing_card .body .feature .state-no,
+.landing-pricing .pricing_card .body .feature .feature-detail-no {
+    color: grey;
+}
+
+.landing-pricing .pricing_card .footer {
+    height: 80px;
+    border-top: 1px solid var(--light-grey-color);
+}
+
+.landing-pricing .pricing_card .footer .pricing-button-Pro {
+    height: 35px;
+    width: 110px;
+    border-radius: 40px;
+    border: 1px solid var(--bodinga-color);
+    color: var(--bodinga-color);
+    font-size: 1.3em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.landing-pricing .pricing_card .footer .pricing-button-Pro:hover {
+    background-color: var(--bodinga-color);
+    color: var(--navbar-color);
+}
+
+.landing-pricing .pricing_card .footer .pricing-button-Free {
+    height: 35px;
+    width: 110px;
+    border-radius: 40px;
+    border: 1px solid var(--lightest-dark-font-color);;
+    color: var(--lightest-dark-font-color);;
+    font-size: 1.3em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.landing-pricing .pricing_card .footer .pricing-button-Free:hover {
+    background-color: var(--lightest-dark-font-color);;
+    color: var(--navbar-color);
+}
